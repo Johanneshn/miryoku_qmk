@@ -3,7 +3,7 @@
 
 name: 'Build Piantor'
 on:
-  - workflow_dispatch
+  - push
 jobs:
   build:
     uses: ./.github/workflows/main.yml
