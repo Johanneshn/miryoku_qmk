@@ -9,3 +9,5 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       keyboard: '["beekeeb/piantor"]'
+      nav: '["VI"]'
+      clipboard: '["WIN"]'
