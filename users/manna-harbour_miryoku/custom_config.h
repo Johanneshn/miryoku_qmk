@@ -5,7 +5,7 @@
 
 #pragma once
 
-#define MIRYOKU_ALTERNATIVES_SYM \
+#define MIRYOKU__SYM \
 KC_TILD,           KC_GRV,            KC_QUOT,           KC_DQUO,           KC_LPRN,           KC_RPRN,           KC_PIPE,           KC_BSLS,           U_NA,              U_NA,              \
 KC_CIRC,           KC_EQL,            KC_UNDS,           KC_DLR,            KC_LCBR,           KC_RCBR,           KC_EXLM,           KC_LT,             KC_GT,             U_NA,              \
 KC_HASH,           KC_AMPR,           KC_QUES,           KC_ASTR,           KC_LBRC,           KC_RBRC,           KC_PLUS,           KC_MINS,           KC_AT,             U_NA,              \
