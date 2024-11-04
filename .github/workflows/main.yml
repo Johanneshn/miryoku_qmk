@@ -76,6 +76,11 @@ jobs:
         run: |
           git config --global --add safe.directory '*'
           make git-submodule
+      - name: Set up QMK environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3 python3-pip
+          pip3 install -r requirements.txt
       - name: Process inputs
         id: inputs
         run: |
